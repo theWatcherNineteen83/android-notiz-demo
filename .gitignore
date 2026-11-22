@@ -1,0 +1,18 @@
+# Build-Artefakte
+build/
+*.apk
+*.idsig
+res.zip
+
+# Signatur-Keys (Debug-Key wird von build.sh lokal erzeugt)
+*.keystore
+*.jks
+
+# IDE
+.idea/
+.gradle/
+*.iml
+local.properties
+
+# Sonstiges
+.DS_Store
